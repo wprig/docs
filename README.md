@@ -1,2 +1,7 @@
-# docs
-Documents and documentation for WP Rig
+# WP Rig Docs
+This repository holds documents and documentation for WP Rig.
+
+## Table of Contents
+-
+-
+-
