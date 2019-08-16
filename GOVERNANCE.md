@@ -13,12 +13,12 @@ Users are community members who have a need for the project. They are typically 
 Users who continue to engage with the project and its community will often become more and more involved. Such Users may find themselves becoming [Contributors](#Contributors), as described in the next section.
 
 ### Contributors
-Contributors are community members who contribute in concrete ways to the project, most often in the form of code and/or documentation submitted through PRs. Anyone can become a Contributor, and contributions can take many forms. There is no expectation of commitment to the project, no specific skill requirements, and no selection process. Contributors must follow the [Code of Conduct]().
+Contributors are community members who contribute in concrete ways to the project, most often in the form of code and/or documentation submitted through [Pull Requests](https://help.github.com/en/articles/about-pull-requests) (PRs) to the [`develop` branch of the WP Rig GitHub repository](https://github.com/wprig/wprig/tree/develop). Anyone can become a Contributor, and contributions can take many forms. There is no expectation of commitment to the project, no specific skill requirements, and no selection process. Contributors must follow the [Code of Conduct]().
 
 Contributors:
 - Have read-only access to source code and therefore can submit changes via pull requests.
-- Have their contribution reviewed and merged by a [Paintainer](#Maintainers) or [Owner](#Owners). Owners and Maintainers work with Contributors to review their code and prepare it for merging.
-- May also review pull requests. This can be helpful, but their approval or disapproval is not decisive for merging or not merging PRs.
+- Have their contribution reviewed and merged by a [Maintainer](#Maintainers) or [Owner](#Owners). Owners and Maintainers work with Contributors to review their code and prepare it for merging.
+- May also comment on issues and pull requests. While their approval or disapproval is not decisive, it is a good way to provide feedback to those making decisions.
 
 As Contributors gain experience and familiarity with the project, their profile within, and commitment to, the community will increase. At some stage, they may find themselves being nominated for becoming a Maintainer by an existing Maintainer or Owner.
 
@@ -95,7 +95,7 @@ When an agenda item has appeared to reach a consensus, the moderator will ask â€
 If an agenda item cannot reach a consensus, an owner can call for either a closing vote or a vote to table the issue to the next meeting. The call for a vote must be approved by a majority of the owners or else the discussion will continue. Simple majority wins.
 
 ## Project Meetings
-There are bi-weekly project meetings; they are scheduled in a shared calendar, and using tools that enable participation by the community. 
+There are bi-weekly project meetings; they are scheduled in a [shared calendar](https://calendar.google.com/calendar/embed?src=wprigio%40gmail.com&ctz=America%2FChicago), and using tools that enable participation by the community. 
 
 ## Credits
 This work is a derivative of [MDN Browser Compat Data GOVERNANCE](https://github.com/mdn/browser-compat-data/blob/master/GOVERNANCE.md), a derivative of [ESLint Governance](https://github.com/eslint/eslint.github.io/blob/master/docs/maintainer-guide/governance.md), [YUI Contributor Model](https://github.com/yui/yui3/wiki/Contributor-Model), and the [JS Foundation TAC Charter](https://github.com/JSFoundation/TAC).
