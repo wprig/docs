@@ -1,6 +1,9 @@
 # WP Rig Docs
 This repository holds documents and documentation for WP Rig.
 
+## Documents
+- :page_facing_up: [WP Rig Code of Conduct](https://github.com/wprig/docs/blob/master/CODE_OF_CONDUCT.md)
+
 ## Documentation Table of Contents
 - :page_facing_up: [Advanced Features (and how to use them)](https://github.com/wprig/docs/blob/master/documentation/Advanced-Features-(and-how-to-use-them).md)
 - :page_facing_up: [Using BrowserSync with WP Rig](https://github.com/wprig/docs/blob/master/documentation/BrowserSync.md)
