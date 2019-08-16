@@ -1,6 +1,4 @@
-:warning: `Draft document` :warning:
-
-# Contributor Covenant Code of Conduct
+# WP Rig Code of Conduct
 
 ## Our Pledge
 
