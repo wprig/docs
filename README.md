@@ -9,6 +9,7 @@ This repository holds documents and documentation for WP Rig.
 - :page_facing_up: [Using BrowserSync with WP Rig](https://github.com/wprig/docs/blob/master/documentation/BrowserSync.md)
 - :page_facing_up: [Enabling PHPCodeSniffer (PHPCS) in VS Code](https://github.com/wprig/docs/blob/master/documentation/PHPCS.md)
 - :page_facing_up: [CSS in WP Rig](https://github.com/wprig/docs/blob/master/documentation/css.md)
+  - :page_facing_up: [CSS grid fallbacks for legacy browsers](https://github.com/wprig/docs/blob/master/documentation/troubleshooting/css-grid.md)
 - :page_facing_up: [Recommended Git Workflow](https://github.com/wprig/docs/blob/master/documentation/git-workflow.md)
 - :page_facing_up: [Gulp in WP Rig](https://github.com/wprig/docs/blob/master/documentation/gulp.md)
 - :page_facing_up: [PHP Architecture in WP Rig](https://github.com/wprig/docs/blob/master/documentation/php.md)
