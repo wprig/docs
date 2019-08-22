@@ -1,4 +1,4 @@
-# CSS Grid fallbacks for older browsers
+# CSS Grid fallbacks for legacy browsers
 
 WP Rig uses CSS grid for global two-dimensional layouts. While `grid` has [widespread support in modern browsers](https://caniuse.com/#search=grid), some older browsers, in particular IE 11, 10, and older do not support the current specification.
 
