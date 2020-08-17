@@ -1,11 +1,11 @@
 # Governance
 
-[WP Rig](https://github.com/wprig/wprig/) is an open source project that depends on contributions from the community. As long as they abide by the project’s [Code of Conduct](), anyone may contribute to the project at any time by submitting code, participating in discussions, making suggestions, or any other contribution they see fit. This document describes how various types of contributors work within the WP Rig project and how decisions are made.
+[WP Rig](https://github.com/wprig/wprig/) is an open source project that depends on contributions from the community. As long as they abide by the project’s [Code of Conduct](https://github.com/wprig/docs/blob/master/CODE_OF_CONDUCT.md), anyone may contribute to the project at any time by submitting code, participating in discussions, making suggestions, or any other contribution they see fit. This document describes how various types of contributors work within the WP Rig project and how decisions are made.
 
 ## Roles and Responsibilities
 
 ### Community members
-_Everyone_ who is involved in any form with the project must abide by the project’s [Code of Conduct](). Everyone is expected to be respectful of fellow community members and to work collaboratively respective of the Code of Conduct. Consequences for not adhering to these Guidelines are listed in their respective documents.
+_Everyone_ who is involved in any form with the project must abide by the project’s [Code of Conduct](https://github.com/wprig/docs/blob/master/CODE_OF_CONDUCT.md). Everyone is expected to be respectful of fellow community members and to work collaboratively respective of the Code of Conduct. Consequences for not adhering to these Guidelines are listed in their respective documents.
 
 ### Users
 Users are community members who have a need for the project. They are typically developers building WordPress themes. Anyone can be a User; there are no special requirements and WP Rig is licensed under [GPL v3.0](https://github.com/wprig/wprig/blob/master/LICENSE). Common User contributions include using WP Rig to build themes, evangelizing the project (e.g., display a link on a website and raise awareness through word-of-mouth), informing developers of strengths and weaknesses from a new user perspective, or providing moral support (a “thank you” goes a long way).
@@ -13,7 +13,7 @@ Users are community members who have a need for the project. They are typically 
 Users who continue to engage with the project and its community will often become more and more involved. Such Users may find themselves becoming [Contributors](#Contributors), as described in the next section.
 
 ### Contributors
-Contributors are community members who contribute in concrete ways to the project, most often in the form of code and/or documentation submitted through [Pull Requests](https://help.github.com/en/articles/about-pull-requests) (PRs) to the [`develop` branch of the WP Rig GitHub repository](https://github.com/wprig/wprig/tree/develop). Anyone can become a Contributor, and contributions can take many forms. There is no expectation of commitment to the project, no specific skill requirements, and no selection process. Contributors must follow the [Code of Conduct]().
+Contributors are community members who contribute in concrete ways to the project, most often in the form of code and/or documentation submitted through [Pull Requests](https://help.github.com/en/articles/about-pull-requests) (PRs) to the [`develop` branch of the WP Rig GitHub repository](https://github.com/wprig/wprig/tree/develop). Anyone can become a Contributor, and contributions can take many forms. There is no expectation of commitment to the project, no specific skill requirements, and no selection process. Contributors must follow the [Code of Conduct](https://github.com/wprig/docs/blob/master/CODE_OF_CONDUCT.md).
 
 Contributors:
 - Have read-only access to source code and therefore can submit changes via pull requests.
@@ -38,7 +38,7 @@ To become a Maintainer one must:
 - Have shown a willingness and ability to participate in the project in a helpful and collaborative way with the WordPress community.
 - Typically, a potential Maintainer will need to show that they have an understanding of and alignment with the project, its objectives, and its strategy.
 - Have contributed a significant amount of work to the project (e.g. in the form of PRs or PR reviews), thereby demonstrating their trustworthiness and commitment to the project.
-- Read and agree to abide by the [Code of Conduct]().
+- Read and agree to abide by the [Code of Conduct](https://github.com/wprig/docs/blob/master/CODE_OF_CONDUCT.md).
 - File an issue in the [wprig/wprig](https://github.com/wprig/wprig) repository and record “I have read, and agree to abide by, the [WP Rig Code of Conduct].”
 
 New Maintainers can be nominated by any existing Maintainers. Once they have been nominated, there will be a vote by the Maintainers.
