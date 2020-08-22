@@ -2,6 +2,7 @@
 This repository holds documents and documentation for WP Rig.
 
 ## Documents
+- :page_facing_up: [WP Rig Governance](https://github.com/wprig/docs/blob/master/GOVERNANCE.md)
 - :page_facing_up: [WP Rig Code of Conduct](https://github.com/wprig/docs/blob/master/CODE_OF_CONDUCT.md)
 
 ## Documentation Table of Contents
