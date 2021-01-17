@@ -40,7 +40,7 @@ This modular file structure has several benefits including
 - discoverability (rules are grouped based on their function and/or module and easy to find)
 - performance (files are only loaded when used)
 - caching and bandwidth (individual files can be updated without the entire set of styles being updated)
-CSS can be modified, deleted, and/or added to all existing files in `assets/css/src/`. When files are removed or new files are added to this folder, they need to be registered with the theme for use and called from the appropriate component. See [Progressive Loading of CSS](#progressive) for further details.
+CSS can be modified, deleted, and/or added to all existing files in `assets/css/src/`. When files are removed or new files are added to this folder, they need to be registered with the theme for use and called from the appropriate component. See [Progressive Loading of CSS](#progressive-loading-of-css) for further details.
 ## Modern CSS via PostCSS
 All CSS is processed through [PostCSS](http://postcss.org/) and leveraging [postcss-preset-env](https://preset-env.cssdb.org/) to allow the use of modern and future CSS markup like [custom properties (variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables). postcss-preset-env support for modern features is configured by setting [stage](https://github.com/csstools/postcss-preset-env#options) and other configurations in `./config/config.default.json`:
 ```json
