@@ -15,5 +15,6 @@ For [VS Code](https://code.visualstudio.com/) users, here's a list of recommende
 - [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense)
 - [PHPCS](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs)
 - [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+- [POSTCSS Language Support](https://marketplace.visualstudio.com/items?itemName=csstools.postcss)
 
 To enable PHPCS in VS Code, [follow these instructions](https://wprig.io/learn/set-up-your-development-environment-v2/). 
