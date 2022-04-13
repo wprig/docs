@@ -14,6 +14,6 @@ For [VS Code](https://code.visualstudio.com/) users, here's a list of recommende
 - [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
 - [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense)
 - [PHPCS](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs)
-- [stylelint](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)
+- [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 
-To enable PHPCS in VS Code, [follow these instructions](https://github.com/wprig/wprig/wiki/Enabling-PHPCodeSniffer-(PHPCS)-in-VS-Code). 
+To enable PHPCS in VS Code, [follow these instructions](https://wprig.io/learn/set-up-your-development-environment-v2/). 
