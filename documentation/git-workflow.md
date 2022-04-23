@@ -48,3 +48,15 @@ Every once in a while, you should update your development theme with the latest 
 1. Update the latest upstream master branch (`git pull upstream master`).
 2. Merge in the latest upstream changes to your own project's master branch (`git merge upstream/master`).
 3. If any merge conflicts occur, you need to resolve them in order to complete the merge.
+
+### Updating your theme using WP Rig as your template repository
+
+If you have opted to use WP Rig as a template theme for your theme and would like to update it with all the new changes from WP Rig it is now really easy to do. After pulling in the new code you will probably have to spend some time going through any merge conflicts.
+
+1. Run (`git remote add template https://github.com/wprig/wprig.git`). This goes ahead and add the master branch of WP Rig as a template to your project.
+2. Run (`git remote -v`) to check to make sure that the template versions was added. You should see:
+`origin  https://github.com/user/your-theme.git (fetch)
+origin  https://github.com/user/your-theme.git (push)
+template        https://github.com/wprig/wprig.git (fetch)
+template        https://github.com/wprig/wprig.git (push)`
+3. Run (`git pull --tags template master`)
