@@ -28,6 +28,48 @@ To use the default key and cert generated above, create new config settings in `
 }
 ```
 
+**OpenSSL**
+
+WP Rig uses OpenSSL to generate SSL certificates. So make sure your operating system already have OpenSSL installed and running. To do so, you can use `openssl version` command in your preferred command-line runner application.
+
+**For Windows Users**
+
+By default OpenSSL is not shipped with Windows. So for generating SSL certificates you need to install OpenSSL for Windows first. You can follow these steps to do so:
+
+**1.** Download the latest version of Win32 or Win64 OpenSSL (according to your operating system)
+[Win32/Win64 OpenSSL Installer for Windows](https://slproweb.com/products/Win32OpenSSL.html)
+
+![image](https://user-images.githubusercontent.com/40002635/64064863-2e553f00-cc1c-11e9-80b8-58ca2fcdaf84.png)
+
+Make sure to download normal version not light version. Apparently light versions miss `bin\openssl.cfg` config file which is necessary for the `generateCert` command to work correctly.
+
+**2.** Install the downloaded file. In the setup window I recommend to select _The OpenSSL binaries (/bin) directory_ for copying OpenSSL DLL files to keep things nice and tidy.
+
+![image](https://user-images.githubusercontent.com/40002635/64064889-7d9b6f80-cc1c-11e9-98ac-77ab8f910b19.png)
+
+**3.** Open your System Environment Variables (you can search for it from the start menu) and add a new System Variable from the Environment Variables window. You can copy the values from here:
+```
+Variable name: OPENSSL_CONF
+Variable value: [OpenSSL installation path]\bin\openssl.cfg
+```
+
+![image](https://user-images.githubusercontent.com/40002635/64064981-47aabb00-cc1d-11e9-8f1e-4fd6bd3b3c17.png)
+
+![image](https://user-images.githubusercontent.com/40002635/64064998-7aed4a00-cc1d-11e9-868c-d039ea8e6658.png)
+
+
+**4.** Find and select Path variable in the System variables panel and click on Edit button. In the edit panel add the following path to the end of the Value field. 
+`[OpenSSL installation path]\bin`
+
+![image](https://user-images.githubusercontent.com/40002635/64065115-a7ee2c80-cc1e-11e9-9d05-65e4c95a30e7.png)
+
+**5.** To see if OpenSSL is configured correctly you can run `openssl version` command in Command Prompt window.
+
+![image](https://user-images.githubusercontent.com/40002635/64065185-93f6fa80-cc1f-11e9-8a4e-cbfd154417be.png)
+
+Please note that this process is tested and works fine on Windows 10 64-bit Home Edition.
+
+
 ### Disable SSL certificate warnings
 
 In addition, to disable SSL certificate warnings in the browser you will need to trust the certificate and CA certificate.
